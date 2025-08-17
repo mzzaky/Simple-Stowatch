@@ -1,0 +1,18 @@
+name: SimpleStopwatch
+version: 1.0.0
+main: com.aithor.time_core.Stopwatch
+api-version: 1.20
+author: Aithor
+description: Plugin stopwatch sederhana untuk Minecraft
+
+commands:
+  stopwatch:
+    description: Command utama untuk stopwatch
+    aliases: [sw]
+    usage: /<command> [start|stop|pause|resume|reset|time|lap]
+    permission: stopwatch.use
+
+permissions:
+  stopwatch.use:
+    description: Izin untuk menggunakan stopwatch
+    default: true

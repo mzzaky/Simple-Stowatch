@@ -1,0 +1,20 @@
+# SimpleStopwatch configuration
+# Interval (in server ticks) for updating active stopwatches. 20 ticks = 1 second.
+update-interval-ticks: 20
+
+# Default permission required to use stopwatch
+permission: stopwatch.use
+
+# Messages (can be localized). Use %s for format placeholders.
+messages:
+  no-console: "Hanya player yang bisa menggunakan command ini!"
+  no-permission: "Kamu tidak memiliki izin untuk menggunakan stopwatch."
+  started: "⏱ Stopwatch dimulai!"
+  stopped: "⏱ Stopwatch dihentikan: %s"
+  paused: "⏱ Stopwatch dipause pada: %s"
+  resumed: "⏱ Stopwatch dilanjutkan!"
+  reset: "⏱ Stopwatch direset!"
+  not-started: "⏱ Kamu belum memulai stopwatch!"
+  already-paused: "⏱ Stopwatch sudah dipause!"
+  already-running: "⏱ Stopwatch sudah berjalan!"
+  action-bar-format: "⏱ %s" # format for action bar updates
